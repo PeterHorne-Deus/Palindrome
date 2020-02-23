@@ -1,7 +1,7 @@
 /*
  * Peter Horne-Deus
  * The tests for palindroms
- * calendarCulminating.java
+ * Palindrome.java
  * Feburary 22, 2020
  */
 
@@ -24,7 +24,7 @@ public class Palindrome {
         String reverse = "";
         
         //Getting user input
-        input = JOptionPane.showInputDialog("A Palinrom is a word that is the same forward and backwards. Plase enter a word ");
+        input = JOptionPane.showInputDialog("A Palinrome is a word that is the same forward and backwards. Plase enter a word ");
         
         //Setting all letters in string to lower case 
         forward = input.toLowerCase();
@@ -37,10 +37,10 @@ public class Palindrome {
         
         //Checking if the reverse eqauals the forward and is therefore a plaindrome
         if(forward.equals(reverse)){
-            JOptionPane.showMessageDialog(null, "This is a palindrom");
+            JOptionPane.showMessageDialog(null, "This is a palindrome");
         }
         else{
-            JOptionPane.showMessageDialog(null, "This is not a palindrom");
+            JOptionPane.showMessageDialog(null, "This is not a palindrome");
         }
     }
     
