@@ -24,7 +24,7 @@ public class Palindrome {
         String reverse = "";
         
         //Getting user input
-        input = JOptionPane.showInputDialog("A Palinrom is a word that is the same forward and backwards. Plase enter a string ");
+        input = JOptionPane.showInputDialog("A Palinrom is a word that is the same forward and backwards. Plase enter a word ");
         
         //Setting all letters in string to lower case 
         forward = input.toLowerCase();
